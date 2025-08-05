@@ -16,37 +16,44 @@ This project was created for fun and as a way to practice Python fundamentals. I
 | `while` loop      | To repeat until the user says "no"               |
 | `f-strings`       | To combine words into a complete sentence        |
 
-## 💡 Pseudocode (Logic Behind the Project)
+## 💻 Pseudocode
 
-Step 1: Import the `random` module
+1. START the program
 
-Step 2: Create lists of subjects, actions, and places — all with Indian examples
+2. IMPORT the random module
 
-Step 3: Use `random.choice()` to pick one word from each list
+3. CREATE a list of Indian subjects
 
-Step 4: Combine the words into a headline using string formatting
+   Example:
+   ["Shahrukh Khan", "Virat Kohli", "Nirmala Sitharaman", "A Mumbai Cat", "A Group of Monkeys"]
 
-Step 5: Print the headline to the user
+4. CREATE a list of Indian actions
+   
+   Example:
+   ["launches", "cancels", "dances with", "eats", "declares war on"]
 
-Step 6: Ask the user if they want another headline
+5. CREATE a list of Indian places or things
 
-Step 7: If yes, repeat; if no, stop the program
+   Example:
+   ["at Red Fort", "in Mumbai local train", "a plate of samosas", "inside Parliament", "at Ganga ghat"]
 
-## 💡 How It Works
+6. START a loop (while loop) that keeps running until the user says "no"
 
--- The program:
+   a. RANDOMLY choose one item from each list (subject, action, place)
+   
+   b. COMBINE the three chosen words into one sentence using string formatting
 
-◻ Randomly selects a subject, an action, and a place/event
+      ◾ Format: "BREAKING: {subject} {action} {place}!"
+   
+   c. PRINT the final fake news headline
+   
+   d. ASK the user if they want to generate another headline (yes/no)
+   
+   e. If user says "no", END the loop
 
-◻ Combines them into a fake breaking news headline
+7. PRINT a goodbye message
 
-◻ Asks if you'd like another one
-
--- Example output: 
-
-BREAKING NEWS: Harry Potter celebrates at Red Fort
-
-Do you want another headline? (yes/no)
+8. END the program
 
 ## 🛠 Tech Stack
 
