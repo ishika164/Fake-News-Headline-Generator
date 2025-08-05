@@ -3,7 +3,7 @@ A simple and fun Python project that creates random, funny news headlines just f
 Perfect for beginners who are learning Python basics like lists, random, input(), and loops.
 
 ## 🎯 Project Objective
-This project was created for fun and as a way to practice Python fundamentals. It’s a great mini-project for beginners who want to build something simple but interactive!
+Create a fun and interactive Python program that generates random, humorous fake news headlines by combining random subjects, actions, and places using basic Python concepts like lists, loops, string formatting, and user input.
 
 ## 🧠 Concepts Used
 
